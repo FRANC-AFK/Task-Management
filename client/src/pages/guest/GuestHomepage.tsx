@@ -1,11 +1,7 @@
-import { Link } from "react-router-dom"
+import React from "react";
 
 const GuestHomepage = () => {
-    return (
-        <div>
-            <Link to="/" className="text-2xl underline">Go to Homepage</Link>
-        </div>
-    )
-}
+  return <div>GuestHomepage</div>;
+};
 
-export default GuestHomepage
+export default GuestHomepage;
